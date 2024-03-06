@@ -1,0 +1,39 @@
+body {
+    margin-top: 20px;
+}
+
+.registration-success {
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+.registration-success .success-inner {
+    display: inline-block;
+}
+
+.registration-success .success-inner h1 {
+    font-size: 100px;
+    text-shadow: 3px 5px 2px #3333;
+    color: #28a745; /* Couleur verte pour un aspect positif */
+    font-weight: 700;
+}
+
+.registration-success .success-inner h1 span {
+    display: block;
+    font-size: 25px;
+    color: #333;
+    font-weight: 600;
+    text-shadow: none;
+    margin-top: 20px;
+}
+
+.registration-success .success-inner p {
+    padding: 20px 15px;
+}
+
+.registration-success .success-inner .btn {
+    background-color: #28a745; /* Couleur verte pour le bouton */
+    border-color: #28a745;
+    color: #fff;
+}

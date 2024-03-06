@@ -1,0 +1,19 @@
+.footer-logo {
+    width: 20%;
+    margin-right: 5%;
+}
+
+.text-footer h6,
+.text-footer a,
+.text-footer p {
+    color: white;
+}
+
+footer {
+    background-color: #1d1d1d;
+    margin-top: 2%;
+}
+
+.contain-footer {
+    background-color: #1d1d1d;
+}

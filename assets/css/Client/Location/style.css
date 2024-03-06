@@ -1,0 +1,37 @@
+.input-group .fa-check-circle,
+.fa-exclamation {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    visibility: hidden;
+}
+
+.input-group small {
+    position: absolute;
+    bottom: -1.25rem;
+    left: 0;
+    font-size: smaller;
+    visibility: hidden;
+}
+
+.input-group .mes {
+    bottom: 2px;
+    left: 22px;
+}
+
+.input-group.success i.fa-check-circle {
+    color: green;
+    visibility: visible;
+    top: 2px;
+}
+
+.input-group.error i.fa-exclamation {
+    color: red;
+    visibility: visible;
+    top: 2px;
+}
+
+.input-group.error small {
+    color: red;
+    visibility: visible;
+}
